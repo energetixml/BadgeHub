@@ -140,6 +140,13 @@ public class BadgeHub: NSObject {
     ///   - labelColor: Color of count label.
     public func setCircleColor(_ circleColor: UIColor?, label labelColor: UIColor?) {
         redCircle.backgroundColor = circleColor
+        setCountLabelColor(label: labelColor)
+    }
+    
+    /// Change the color of the count label.
+    /// - Parameters:
+    ///   - labelColor: Color of count label.
+    public func setCountLabelColor(label labelColor: UIColor?) {
         if let labelColor = labelColor {
             countLabel?.textColor = labelColor
         }

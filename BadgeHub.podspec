@@ -21,12 +21,11 @@ Pod::Spec.new do |s|
 Make any view a full fledged animated notification center. It is a way to quickly add a notification badge icon to a UIView. It make very easy to add badge to any view.
                        DESC
 
-  s.homepage         = 'https://github.com/jogendra/BadgeHub'
+  s.homepage         = 'https://github.com/energetixml/BadgeHub'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jogendra' => 'imjog24@gmail.com' }
+  s.author           = { 'jogendra' => 'imjog24@gmail.com', 'energetixml' => 'energetixml@gmail.com' }
   s.source           = { :git => 'https://github.com/jogendra/BadgeHub.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/jogendrafx'
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'

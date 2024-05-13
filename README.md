@@ -1,5 +1,7 @@
 # BadgeHub
 
+Modified version of BadgeHub: added convenience method to set the count label color.
+
 A way to quickly add a notification badge icon to any view.
 
 <img src="https://user-images.githubusercontent.com/20956124/52379966-080a5f00-2a92-11e9-8c85-9c34fabd4641.png">
@@ -122,6 +124,16 @@ Change the color of the notification circle, also the text color of count label.
 ```swift
 hub.setCircleColor(_ circleColor: UIColor?, label labelColor: UIColor?)
 ```
+
+
+Change the color of the count label.
+
+![setCircleColor](https://i.imgur.com/MrsGB4p.gif) 
+
+```swift
+hub.setCountLabelColor(label labelColor: UIColor?)
+```
+
 Change the border color and border width of the circle
 
 ![Custom](https://i.imgur.com/PhlDWXW.gif)
