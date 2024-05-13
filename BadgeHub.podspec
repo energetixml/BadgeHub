@@ -25,7 +25,7 @@ Make any view a full fledged animated notification center. It is a way to quickl
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jogendra' => 'imjog24@gmail.com', 'energetixml' => 'energetixml@gmail.com' }
-  s.source           = { :git => 'https://github.com/jogendra/BadgeHub.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/energetixml/BadgeHub.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
